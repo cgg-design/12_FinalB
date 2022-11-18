@@ -4,6 +4,8 @@
 
 int print_hello_world()
 {
+    // char a[10];
+    // a[10] = 0;
     std::cout << "Cout: Hello World" << '\n';
 
     return 1;
