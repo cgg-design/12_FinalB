@@ -33,6 +33,5 @@ jobs:
     - name: testing
       run: |
         cd build
-        cd bin
-        ./unit_tests
+        ctest -C Debug -T test -j4
         bash <(curl -s https://codecov.io/bash)
