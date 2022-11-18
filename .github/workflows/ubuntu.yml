@@ -34,5 +34,5 @@ jobs:
       run: |
         cd build
         cd bin
-        .\unit_tests.exe
+        ./unit_tests
         bash <(curl -s https://codecov.io/bash)
