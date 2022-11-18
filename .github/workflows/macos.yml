@@ -30,5 +30,4 @@ jobs:
     - name: testing
       run: |
         cd build
-        cd bin
-        ./unit_tests.exe
+        ctest -C Debug -T test -j4
